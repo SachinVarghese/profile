@@ -2,6 +2,24 @@
   display: flex;
 }
 
+.fullWidth {
+  width: 100%;
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.fullSize {
+  composes: fullHeight;
+  composes: fullWidth;
+}
+
+.flex1 {
+  composes: dFlex;
+  flex: 1;
+}
+
 /* .dflex-v-center {
   display: flex;
   align-items: center;
@@ -27,23 +45,6 @@
   composes: d-flex-centralized;
   flex-direction: column;
 } */
-
-.fullWidth {
-  width: 100%;
-}
-
-.fullHeight {
-  height: 100%;
-}
-
-.fullSize {
-  composes: fullHeight;
-  composes: fullWidth;
-}
-
-.flex1 {
-  flex: 1;
-}
 
 /* .full-size-d-flex-centralized {
   composes: d-flex-centralized;

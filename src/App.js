@@ -1,16 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
 import { Router } from "@reach/router";
 import styles from "./app.module.css";
 import Loading from "./Loading";
-import classnames from "classnames";
 const Profile = import("./apps/profile/Profile");
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <div className={classnames(styles.fullSize)}>
-        <Router className={classnames(styles.fullSize)}>
-          <CodeSplit default key="/" path="/" componentPromise={Profile} />
+      <div className={styles.fullSize}>
+        <Router className={styles.fullSize}>
+          <CodeSplit
+            default
+            key="profile"
+            path="/"
+            componentPromise={Profile}
+          />
         </Router>
       </div>
     );

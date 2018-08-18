@@ -3,21 +3,19 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
 
-import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
-import CssBaseline from "@material-ui/core/CssBaseline";
+import JssProvider from "react-jss/lib/JssProvider";
+import { create } from "jss";
+import { createGenerateClassName, jssPreset } from "@material-ui/core/styles";
 
-const theme = createMuiTheme();
+const generateClassName = createGenerateClassName();
+const jss = create(jssPreset());
+// We define a custom insertion point that JSS will look for injecting the styles in the DOM.
+jss.options.insertionPoint = document.getElementById("jss-insertion-point");
 
-class Main extends React.Component {
-  render() {
-    return (
-      <MuiThemeProvider theme={theme}>
-        <CssBaseline />
-        <App />
-      </MuiThemeProvider>
-    );
-  }
-}
-
-ReactDOM.render(<Main />, document.getElementById("root"));
+ReactDOM.render(
+  <JssProvider jss={jss} generateClassName={generateClassName}>
+    <App />
+  </JssProvider>,
+  document.getElementById("root")
+);
 registerServiceWorker();
