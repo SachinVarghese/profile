@@ -1,0 +1,30 @@
+.mainBackground {
+  composes: flex1 from "../../app.module.css";
+  margin: 10px;
+}
+
+.root {
+  composes: flex1 from "../../app.module.css";
+  overflow: hidden;
+}
+
+.avatar {
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.Avatar {
+  margin: auto;
+  height: 100px;
+  width: 100px;
+}
+
+.intro {
+  margin: 10px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}

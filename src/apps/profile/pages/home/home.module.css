@@ -1,0 +1,15 @@
+.mainBackground {
+  composes: flex1 from "../../../../app.module.css";
+  background-image: url("../../../../assets/cover_main.jpeg");
+  background-size: cover;
+  background-color: grey;
+  background-blend-mode: multiply;
+}
+
+.mainTextCover {
+  margin: auto;
+}
+
+.mainText {
+  font-family: "Average", serif;
+}
