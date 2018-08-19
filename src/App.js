@@ -3,6 +3,7 @@ import { Router } from "@reach/router";
 import styles from "./app.module.css";
 import Loading from "./Loading";
 const Profile = import("./apps/profile/Profile");
+const NBA = import("./apps/nba/main");
 
 class App extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
             path="/"
             componentPromise={Profile}
           />
+          <CodeSplit key="nba" path="/nba" componentPromise={NBA} />
         </Router>
       </div>
     );

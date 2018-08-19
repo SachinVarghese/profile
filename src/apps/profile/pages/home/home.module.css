@@ -1,9 +1,11 @@
 .mainBackground {
+  composes: dFlex from "../../../../app.module.css";
   composes: flex1 from "../../../../app.module.css";
   background-image: url("../../../../assets/cover_main.jpeg");
   background-size: cover;
   background-color: grey;
   background-blend-mode: multiply;
+  overflow: hidden;
 }
 
 .mainTextCover {

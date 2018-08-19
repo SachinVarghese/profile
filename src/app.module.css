@@ -16,7 +16,6 @@
 }
 
 .flex1 {
-  composes: dFlex;
   flex: 1;
 }
 

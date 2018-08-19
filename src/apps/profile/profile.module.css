@@ -1,9 +1,11 @@
 .mainBackground {
+  composes: dFlex from "../../app.module.css";
   composes: flex1 from "../../app.module.css";
   margin: 10px;
 }
 
 .root {
+  composes: dFlex from "../../app.module.css";
   composes: flex1 from "../../app.module.css";
   overflow: hidden;
 }

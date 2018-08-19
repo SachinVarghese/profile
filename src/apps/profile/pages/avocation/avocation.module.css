@@ -1,0 +1,56 @@
+.mainBackground {
+  composes: flex1 from "../../../../app.module.css";
+  composes: dFlex from "../../../../app.module.css";
+  background-image: url("../../../../assets/hobbies.jpg");
+  background-size: cover;
+  background-color: burlywood;
+  background-blend-mode: multiply;
+  overflow: hidden;
+}
+
+.textHeader {
+  font-family: "Average", serif;
+  margin: 5px;
+}
+
+.picContent {
+  composes: flex1 from "../../../../app.module.css";
+  composes: dFlex from "../../../../app.module.css";
+  flex-direction: column;
+}
+
+.textContent {
+  composes: flex1 from "../../../../app.module.css";
+  composes: dFlex from "../../../../app.module.css";
+  flex-direction: column;
+  padding: 20px;
+  margin: auto;
+}
+
+.textHeader {
+  margin-bottom: 20px;
+}
+
+.picsContainer {
+  composes: flex1 from "../../../../app.module.css";
+  composes: dFlex from "../../../../app.module.css";
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+  padding-bottom: 40px;
+  height: 200px;
+  width: 200px;
+  max-width: 345px;
+  composes: dFlex from "../../../../app.module.css";
+}
+
+.media {
+  composes: flex1 from "../../../../app.module.css";
+}

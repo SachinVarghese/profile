@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Basketball",
+    "src": "./pics/basketball.jpg"
+  },
+  {
+    "name": "Travel",
+    "src": "./pics/travel.jpg"
+  },
+  {
+    "name": "Soccer",
+    "src": "./pics/soccer.jpg"
+  },
+  {
+    "name": "Chess",
+    "src": "./pics/chess.jpg"
+  }
+]

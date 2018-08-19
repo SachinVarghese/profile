@@ -13,7 +13,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookSquare,
   faLinkedin,
-  faTwitter
+  faTwitter,
+  faGithub
 } from "@fortawesome/free-brands-svg-icons";
 import Home from "@material-ui/icons/Home";
 import Person from "@material-ui/icons/Person";
@@ -93,7 +94,7 @@ class SideBar extends React.Component {
           >
             Hello! I am Sachin.
             <br /> Welcome to my Portfolio Page.
-            <br /> Hope you have a Nice Day!
+            <br /> I'm always open to talk!
           </Typography>
         </div>
         <Divider />
@@ -135,7 +136,7 @@ const PageLinks = (
     <ListItem
       button
       onClick={() => {
-        navigate("/about");
+        navigate("/skill");
       }}
     >
       <ListItemIcon>
@@ -146,7 +147,7 @@ const PageLinks = (
     <ListItem
       button
       onClick={() => {
-        navigate("/about");
+        navigate("/avocation");
       }}
     >
       <ListItemIcon>
@@ -191,6 +192,17 @@ const ConnectLinks = (
         <FontAwesomeIcon icon={faFacebookSquare} />
       </ListItemIcon>
       <ListItemText primary="Facebook" />
+    </ListItem>
+    <ListItem
+      button
+      onClick={() => {
+        window.open("https://github.com/SachinVarghese", "_blank");
+      }}
+    >
+      <ListItemIcon>
+        <FontAwesomeIcon icon={faGithub} />
+      </ListItemIcon>
+      <ListItemText primary="GitHub" />
     </ListItem>
   </div>
 );

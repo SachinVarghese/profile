@@ -1,0 +1,27 @@
+.mainBackground {
+  composes: dFlex from "../../../../app.module.css";
+  composes: flex1 from "../../../../app.module.css";
+  max-height: 98vh;
+  overflow: auto;
+  flex-wrap: wrap;
+  background-image: url("../../../../assets/cover.jpeg");
+  background-size: cover;
+  background-color: darkslategray;
+  background-blend-mode: multiply;
+}
+.dualContent {
+  width: 50%;
+  min-width: 350px;
+  padding: 20px;
+}
+
+.textHeader {
+  font-family: "Average", serif;
+  margin: 5px;
+}
+
+.textContent {
+  font-family: "Average", serif;
+  margin: 20px 5px 20px 5px;
+  font-size: 15px;
+}

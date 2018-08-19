@@ -6,8 +6,10 @@ import SideBar from "./SideBar";
 import { Router } from "@reach/router";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
+import Skill from "./pages/skill/Skill";
+import Avocation from "./pages/avocation/Avocation";
 
-import purple from "@material-ui/core/colors/purple";
+import blue from "@material-ui/core/colors/blueGrey";
 
 class Profile extends React.Component {
   state = {
@@ -37,6 +39,8 @@ class Profile extends React.Component {
         >
           <Home default key="home" path="" />
           <About key="about" path="about" />
+          <Skill key="skill" path="skill" />
+          <Avocation key="avocation" path="avocation" />
         </Router>
       </div>
     );
@@ -46,7 +50,7 @@ class Profile extends React.Component {
 const theme = createMuiTheme({
   palette: {
     type: "dark",
-    primary: purple
+    primary: blue
   }
 });
 
