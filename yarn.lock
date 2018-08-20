@@ -8558,6 +8558,10 @@ thread-loader@1.1.5:
     loader-runner "^2.3.0"
     loader-utils "^1.1.0"
 
+three@0.95.0:
+  version "0.95.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.95.0.tgz#b60ea076ba17df9faba9e855b86ab3f541289abf"
+
 throat@^4.0.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/throat/-/throat-4.1.0.tgz#89037cbc92c56ab18926e6ba4cbb200e15672a6a"

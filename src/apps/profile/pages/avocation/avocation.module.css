@@ -3,7 +3,7 @@
   composes: dFlex from "../../../../app.module.css";
   background-image: url("../../../../assets/hobbies.jpg");
   background-size: cover;
-  background-color: burlywood;
+  background-color: lightslategray;
   background-blend-mode: multiply;
   overflow: hidden;
 }
@@ -23,11 +23,12 @@
   composes: flex1 from "../../../../app.module.css";
   composes: dFlex from "../../../../app.module.css";
   flex-direction: column;
-  padding: 20px;
+  padding: 50px;
   margin: auto;
 }
 
 .textHeader {
+  font-family: "Average", serif;
   margin-bottom: 20px;
 }
 

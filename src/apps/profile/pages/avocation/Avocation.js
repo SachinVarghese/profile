@@ -22,6 +22,7 @@ class Avocation extends React.Component {
             component="b"
             align="justify"
             color="textPrimary"
+            className={styles.textHeader}
           >
             I am a big time sports enthusiast especially, basketball and soccer.
             I have been playing and watching basketball since school life. I
