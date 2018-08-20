@@ -25,6 +25,7 @@ import { withStyles } from "@material-ui/core/styles";
 import { navigate } from "@reach/router";
 
 const drawerWidth = 300;
+const basepath = "/profile";
 
 const styler = theme => {
   return {
@@ -114,7 +115,7 @@ const PageLinks = (
     <ListItem
       button
       onClick={() => {
-        navigate("/");
+        navigate(basepath);
       }}
     >
       <ListItemIcon>
@@ -125,7 +126,7 @@ const PageLinks = (
     <ListItem
       button
       onClick={() => {
-        navigate("/about");
+        navigate(basepath + "/about");
       }}
     >
       <ListItemIcon>
@@ -136,7 +137,7 @@ const PageLinks = (
     <ListItem
       button
       onClick={() => {
-        navigate("/skill");
+        navigate(basepath + "/skill");
       }}
     >
       <ListItemIcon>
@@ -147,7 +148,7 @@ const PageLinks = (
     <ListItem
       button
       onClick={() => {
-        navigate("/avocation");
+        navigate(basepath + "/avocation");
       }}
     >
       <ListItemIcon>

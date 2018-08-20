@@ -1,5 +1,5 @@
 import React from "react";
-import { Router } from "@reach/router";
+import { Router, Link, navigate } from "@reach/router";
 import styles from "./app.module.css";
 import Loading from "./Loading";
 const Profile = import("./apps/profile/Profile");
@@ -11,12 +11,12 @@ class App extends React.Component {
       <div className={styles.fullSize}>
         <Router className={styles.fullSize}>
           <CodeSplit
-            default
             key="profile"
-            path="/"
+            path="profile/*"
             componentPromise={Profile}
           />
-          <CodeSplit key="nba" path="/nba" componentPromise={NBA} />
+          <CodeSplit key="nba" path="nba" componentPromise={NBA} />
+          <NotFound default />
         </Router>
       </div>
     );
@@ -43,6 +43,17 @@ class CodeSplit extends React.Component {
     const { Comp } = this.state;
     const { componentPromise, children, ...otherProps } = this.props;
     return <Comp {...otherProps}>{children}</Comp>;
+  }
+}
+
+class NotFound extends React.Component {
+  render() {
+    return <Link to="profile">Navigating to Profile...</Link>;
+  }
+  componentDidMount() {
+    setTimeout(() => {
+      navigate("profile");
+    }, 200);
   }
 }
 

@@ -4,7 +4,7 @@ class Loading extends React.Component {
   render() {
     return (
       <div className={styles["full-size-d-flex-column-centralized"]}>
-        "Loading ..."
+        Loading ...
       </div>
     );
   }
