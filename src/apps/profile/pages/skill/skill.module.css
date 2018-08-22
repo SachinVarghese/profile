@@ -9,7 +9,16 @@
   margin: 5px;
 }
 
+.text {
+  font-family: "Average", serif;
+  padding: 5px;
+}
+
 .sceneBackground {
   composes: flex1 from "../../../../app.module.css";
   composes: dFlex from "../../../../app.module.css";
+}
+
+.node {
+  cursor: pointer;
 }

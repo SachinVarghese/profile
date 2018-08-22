@@ -13,7 +13,7 @@ class Home extends React.Component {
             className={styles.mainText}
             align="center"
           >
-            Hello! I'm Sachin, <br /> Explorer, Researcher, Developer.
+            Hello! I'm Sachin, <br /> Engineer, Researcher, Developer.
           </Typography>
         </div>
       </Paper>

@@ -55,7 +55,7 @@ class About extends React.Component {
             the most productive way for any technological advancement. Thus,
             making innovative solutions more efficient, inexpensive and easily
             accessible is the way for the future. My perspective is corroborated
-            by the huge number of Fortune 500 companies that are adopting open
+            by the huge number of top tier companies that are adopting open
             source solutions in their technological products.
           </Typography>
         </div>
@@ -113,7 +113,7 @@ class About extends React.Component {
             I am looking forward to more learning, experimenting and open source
             collaboration in the areas of Intelligent Software Development and
             Interfaces. Always up for a chat or even a constructive debate on
-            ideas that could shape the world!!
+            ideas that could shape the future!!
           </Typography>
         </div>
       </div>

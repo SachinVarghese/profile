@@ -33,8 +33,10 @@ class CodeSplit extends React.Component {
     if (componentPromise) {
       componentPromise
         .then(res => this.setState({ Comp: res.default }))
-        .catch(() => {
-          this.setState({ Comp: () => `Failed to load the component` });
+        .catch(err => {
+          this.setState({
+            Comp: () => `Failed to load the component ..${err}`
+          });
         });
     }
   }
