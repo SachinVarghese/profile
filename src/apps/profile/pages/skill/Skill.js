@@ -20,7 +20,7 @@ class Skill extends React.Component {
         <div className={styles.sceneBackground}>
           <div
             className={styles.dualBackground}
-            style={{ width: "40%", paddingLeft: 20 }}
+            style={{ width: "40%", paddingLeft: 20, margin: "auto" }}
           >
             <Typography variant="title" className={styles.text} color="primary">
               Programming Paradigms and Languages
