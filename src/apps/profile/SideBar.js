@@ -94,7 +94,7 @@ class SideBar extends React.Component {
             noWrap={false}
           >
             Hello! I am Sachin.
-            <br /> I'm always open to talk!
+            <br /> I'm a software developer!
           </Typography>
         </div>
         <Divider />
