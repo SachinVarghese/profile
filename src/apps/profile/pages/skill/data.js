@@ -149,7 +149,7 @@ export default [
   {
     cat: "language",
     name: "Python",
-    value: 50,
+    value: 70,
     icon: "./img/python.jpg",
     url: "https://www.python.org/"
   },

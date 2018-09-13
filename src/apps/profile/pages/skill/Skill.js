@@ -38,37 +38,37 @@ class Skill extends React.Component {
               Web Technologies and Frameworks
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              HTML, CSS and REST APIs
+              User Interface design HTML and CSS
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              NodeJS, NPM, Webpack
+              API Design REST, Web Sockets, gRPC
+            </Typography>
+            <Typography variant="subheading" className={styles.text}>
+              NodeJS, NPM, Webpack Bundling
             </Typography>
             <Typography variant="subheading" className={styles.text}>
               ReactJS, JSX, React Native
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              WebGL, ThreeJS, TensorFlowJS
-            </Typography>
-            <Typography variant="title" className={styles.text} color="primary">
-              Database and Computaional Technologies
+              D3.js, React-vis, WebGL, ThreeJS
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Relational Databeses - MySQL, Postgres
+              Deep Learning with Scikit-learn, TensorFlow
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              NoSQL Databases - Elasticsearch, MongoDB
+              Chatbots, Messaging Queues and Data Pipelines
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              HDFS, Spark, Structured Streaming
+              Databases - Postgres, MySQL, Elasticsearch, MongoDB
             </Typography>
             <Typography variant="title" className={styles.text} color="primary">
               Development Cycle and Operations
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Continous Delivery - Gitlab CI/CD Pipelines
+              Continous Delivery - Gitlab CI/CD Pipelines, Jenkins
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Scaling and Monitoring - Docker & Kubernetes
+              Docker, S2I, Seldon-Core, Kubernetes
             </Typography>
           </div>
           <svg
