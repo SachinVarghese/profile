@@ -1,17 +1,25 @@
 .mainBackground {
   composes: dFlex from "../../../../app.module.css";
   composes: flex1 from "../../../../app.module.css";
+  overflow: hidden;
+}
+
+.mainBackground > canvas {
   background-image: url("../../../../assets/cover_main.jpeg");
   background-size: cover;
   background-color: grey;
   background-blend-mode: multiply;
-  overflow: hidden;
+  flex: 1;
 }
 
 .mainTextCover {
-  margin: auto;
+  position: absolute;
+    top: 20%;
+    left: 35%;
 }
 
 .mainText {
   font-family: "Average", serif;
+  color: white;
+  text-shadow: 4px 2px cadetblue;
 }

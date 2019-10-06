@@ -226,7 +226,7 @@ export default [
   {
     cat: "backend",
     name: "Spark",
-    value: 50,
+    value: 20,
     icon: "./img/spark.png",
     url: "https://spark.apache.org/docs/2.3.0/"
   },
@@ -247,8 +247,22 @@ export default [
   {
     cat: "framework",
     name: "Dask",
-    value: 30,
+    value: 20,
     icon: "./img/dask.svg",
     url: "http://dask.pydata.org/en/latest/"
+  },
+  {
+    cat: "language",
+    name: "Golang",
+    value: 60,
+    icon: "./img/golang.png",
+    url: "https://golang.org/"
+  },
+  {
+    cat: "framework",
+    name: "WebGL",
+    value: 60,
+    icon: "./img/webgl.png",
+    url: "https://www.khronos.org/webgl/"
   }
 ];

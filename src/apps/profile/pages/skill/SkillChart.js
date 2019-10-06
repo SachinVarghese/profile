@@ -8,7 +8,7 @@ const SkillChart = function(id, data) {
   let centerX = width * 0.5;
   let centerY = height * 0.5;
   let strength = 0.05;
-  let scaleColor = d3.scaleOrdinal(d3.schemeCategory20);
+  let scaleColor = d3.scaleOrdinal(["ghostwhite","white","aliceblue","antiquewhite"]);
   let pack = d3
     .pack()
     .size([width, height])
