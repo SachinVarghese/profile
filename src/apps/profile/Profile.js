@@ -35,11 +35,12 @@ class Profile extends React.Component {
         <Router
           className={styles.mainBackground}
           onClick={this.handleSideBarClose}
+          basepath="/profile"          
         >
-          <Home default key="home" path="/" />
-          <About key="about" path="about" />
-          <Skill key="skill" path="skill" />
-          <Avocation key="avocation" path="avocation" />
+          <Home default key="home" path="" />
+          <About key="about" path="/about" />
+          <Skill key="skill" path="/skill" />
+          <Avocation key="avocation" path="/avocation" />
         </Router>
       </div>
     );

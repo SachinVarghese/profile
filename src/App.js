@@ -12,10 +12,10 @@ class App extends React.Component {
         <Router className={styles.fullSize}>
           <CodeSplit
             key="profile"
-            path="profile/*"
+            path="/*"
             componentPromise={Profile}
           />
-          <CodeSplit key="nba" path="nba" componentPromise={NBA} />
+          <CodeSplit key="nba" path="/nba" componentPromise={NBA} />
           <NotFound default />
         </Router>
       </div>
@@ -50,11 +50,11 @@ class CodeSplit extends React.Component {
 
 class NotFound extends React.Component {
   render() {
-    return <Link to="profile">Navigating to Profile...</Link>;
+    return <Link to="/">Navigating to Profile...</Link>;
   }
   componentDidMount() {
     setTimeout(() => {
-      navigate("profile");
+      navigate("/");
     }, 200);
   }
 }

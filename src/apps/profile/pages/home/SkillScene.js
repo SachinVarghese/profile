@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import backgroundImg from "../../../../assets/cover_main.jpeg";
 
 export default function(id) {
@@ -11,12 +12,19 @@ export default function(id) {
     1,
     1000
   );
-  camera.position.z = 10;
-  camera.position.y = 0;
 
   var renderer = new THREE.WebGLRenderer();
   renderer.setSize(container.offsetWidth, container.offsetHeight);
   container.appendChild(renderer.domElement);
+  
+  var controls = new OrbitControls( camera, renderer.domElement );
+
+  //controls.update() must be called after any manual changes to the camera's transform
+  camera.position.set( 0, 0, 15 );
+  controls.update();
+
+
+
 
   window.addEventListener('resize', () => {
       renderer.setSize(container.offsetWidth,container.offsetHeight);
@@ -45,6 +53,9 @@ export default function(id) {
         for(var i = 0; i<5;i++) {
             addBubble(i);
         }
+
+      window.addEventListener('click', onMouseMove);
+      render();
     });
 
 
@@ -58,8 +69,7 @@ export default function(id) {
 
   var render = function() {
       requestAnimationFrame(render);
-
-
+      controls.update();
       renderer.render(scene, camera);
   }
 
@@ -80,7 +90,4 @@ export default function(id) {
         intersects[i].object.rotation.y += Math.PI/2;
       }
   }  
-
-  window.addEventListener('click', onMouseMove);
-  render();
 };
