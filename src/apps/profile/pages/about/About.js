@@ -151,7 +151,7 @@ class About extends React.Component {
   dither(canvas,ctx) {
     let imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     let newData = imageData.data;
-    let colorNum=9;
+    let colorNum=99;
 
 
     for (let y = 0; y < canvas.height; y += 1) {
