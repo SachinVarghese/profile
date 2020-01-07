@@ -1,12 +1,12 @@
 .mainBackground {
   composes: dFlex from "../../../../app.module.css";
   composes: flex1 from "../../../../app.module.css";
+  flex-direction: column;
   max-height: 98vh;
   overflow: auto;
-  flex-wrap: wrap;
-  background-image: url("../../../../assets/cover.jpeg");
+  /* background-image: url("../../../../assets/cover.jpeg"); */
   background-size: cover;
-  background-color: darkslategray;
+  /* background-color: darkslategray; */
   background-blend-mode: multiply;
   background-position: center;
 }
@@ -14,8 +14,8 @@
 .canvas {
   composes: dFlex from "../../../../app.module.css";
   composes: flex1 from "../../../../app.module.css";
-  width: calc(100% - 90px);
-  height: calc(100% - 20px);
+  /* width: calc(100% - 90px); */
+  /* height: calc(100% - 20px); */
   position: absolute;
 }
 
@@ -23,6 +23,15 @@
   flex:1;
   z-index: 10;
   min-width: 350px;
+  padding: 0px 50px;
+  display: flex;
+}
+
+.outerContent {
+  padding: 50px;
+}
+
+.content {
   padding: 20px;
 }
 
@@ -37,7 +46,7 @@
 .textContent {
   font-family: "Average", serif;
   margin: 20px 5px 20px 5px;
-  font-size: 15px;
+  font-size: 20px;
   text-shadow: 2px 2px black;
   color: whitesmoke;
 }
