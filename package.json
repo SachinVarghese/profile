@@ -1,5 +1,5 @@
 {
-  "name": "myprofile",
+  "name": "profile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,9 +17,10 @@
     "react-scripts": "^3.2.0",
     "three": "^0.109.0"
   },
+  "homepage": "/profile",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && mv build docs",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
