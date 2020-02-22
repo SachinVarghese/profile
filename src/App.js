@@ -11,7 +11,7 @@ class App extends React.Component {
         <Router className={styles.fullSize}>
           <CodeSplit
             key="profile"
-            path="/profile"
+            path="/profile/*"
             componentPromise={Profile}
           />
           <NotFound default />
