@@ -11,7 +11,7 @@ class App extends React.Component {
         <Router className={styles.fullSize}>
           <CodeSplit
             key="profile"
-            path="/profile/*"
+            path="/profile"
             componentPromise={Profile}
           />
           <NotFound default />
@@ -48,11 +48,11 @@ class CodeSplit extends React.Component {
 
 class NotFound extends React.Component {
   render() {
-    return <Link to="/profile/">Navigating to Profile...</Link>;
+    return <Link to="/profile">Navigating to Profile...</Link>;
   }
   componentDidMount() {
     setTimeout(() => {
-      navigate("/profile/");
+      navigate("/profile");
     }, 200);
   }
 }
