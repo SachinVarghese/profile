@@ -10,6 +10,7 @@ import Skill from "./pages/skill/Skill";
 import Avocation from "./pages/avocation/Avocation";
 
 import blue from "@material-ui/core/colors/blueGrey";
+import Timeline from "./pages/timeline/Timeline";
 
 class Profile extends React.Component {
   state = {
@@ -39,6 +40,7 @@ class Profile extends React.Component {
         >
           <Home default key="home" path="" />
           <About key="about" path="/about" />
+          <Timeline key="timeline" path="/timeline" />
           <Skill key="skill" path="/skill" />
           <Avocation key="avocation" path="/avocation" />
         </Router>

@@ -18,6 +18,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Home from "@material-ui/icons/Home";
 import Person from "@material-ui/icons/Person";
+import TimeLine from "@material-ui/icons/Timeline";
 import Star from "@material-ui/icons/Star";
 import Explore from "@material-ui/icons/Explore";
 import classNames from "classnames";
@@ -93,8 +94,8 @@ class SideBar extends React.Component {
             )}
             noWrap={false}
           >
-            Hello! I am Sachin.
-            <br /> I'm a software developer!
+            Hello! I'm Sachin.
+            <br /> I'm a developer &#128526;
           </Typography>
         </div>
         <Divider />
@@ -132,6 +133,17 @@ const PageLinks = (
         <Person />
       </ListItemIcon>
       <ListItemText primary="About" />
+    </ListItem>
+    <ListItem
+      button
+      onClick={() => {
+        navigate(basepath + "/timeline");
+      }}
+    >
+      <ListItemIcon>
+        <TimeLine />
+      </ListItemIcon>
+      <ListItemText primary="Timeline" />
     </ListItem>
     <ListItem
       button

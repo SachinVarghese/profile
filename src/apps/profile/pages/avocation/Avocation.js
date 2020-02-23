@@ -18,11 +18,10 @@ class Avocation extends React.Component {
             Avocations and Interests
           </Typography>
           <Typography
-            variant="subheading"
-            component="b"
+            variant="display1"
             align="justify"
             color="textPrimary"
-            className={styles.textHeader}
+            className={styles.textBody}
           >
             I am a big time sports enthusiast especially, basketball and soccer.
             I have been playing and watching basketball since school life. I

@@ -4,36 +4,12 @@
   flex-direction: column;
   max-height: 98vh;
   overflow: auto;
-  /* background-image: url("../../../../assets/cover.jpeg"); */
-  background-size: cover;
-  /* background-color: darkslategray; */
-  background-blend-mode: multiply;
-  background-position: center;
-}
-
-.canvas {
-  composes: dFlex from "../../../../app.module.css";
-  composes: flex1 from "../../../../app.module.css";
-  /* width: calc(100% - 90px); */
-  /* height: calc(100% - 20px); */
-  position: absolute;
-}
-
-.dualContent {
-  flex:1;
-  z-index: 10;
-  min-width: 350px;
-  padding: 0px 50px;
-  display: flex;
 }
 
 .outerContent {
-  padding: 50px;
+  padding: 150px;
 }
 
-.content {
-  padding: 20px;
-}
 
 .textHeader {
   font-family: "Average", serif;

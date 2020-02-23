@@ -27,9 +27,21 @@
   margin: auto;
 }
 
+
 .textHeader {
   font-family: "Average", serif;
   margin-bottom: 20px;
+  font-weight: bolder;
+  text-shadow: 2px 2px black;
+  color: ghostwhite;
+}
+
+.textBody {
+  font-family: "Average", serif;
+  margin: 20px 5px 20px 5px;
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+  color: whitesmoke;
 }
 
 .picsContainer {

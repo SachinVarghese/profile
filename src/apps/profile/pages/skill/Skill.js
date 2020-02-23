@@ -8,31 +8,16 @@ class Skill extends React.Component {
   render() {
     return (
       <div className={styles.mainBackground}>
-        <Typography
-          variant="display1"
-          component="h3"
-          align="center"
-          color="textPrimary"
-          className={styles.textHeader}
-        >
-          Skills and Experience
-        </Typography>
         <div className={styles.sceneBackground}>
           <div
             className={styles.dualBackground}
             style={{ width: "40%", paddingLeft: 20, margin: "auto" }}
           >
             <Typography variant="title" className={styles.text} color="primary">
-              Programming Paradigms and Languages
+              Programming Languages
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Object Oriented Programming - Python, C++
-            </Typography>
-            <Typography variant="subheading" className={styles.text}>
-              Functional Programming - Javascript(ES), Elixir
-            </Typography>
-            <Typography variant="subheading" className={styles.text}>
-              Scripting Languages - MATLAB, R
+              C++, Golang, Javascript
             </Typography>
             <Typography variant="title" className={styles.text} color="primary">
               Web Technologies and Frameworks
@@ -44,19 +29,19 @@ class Skill extends React.Component {
               API Design REST, Web Sockets, gRPC
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              NodeJS, NPM, Webpack Bundling
+              NodeJS, NPM, Electron
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              ReactJS, JSX, React Native
+              ReactJS, JSX, ECMA Script
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              D3.js, React-vis, WebGL, ThreeJS
+              SVG, WebGL, D3, ThreeJS
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Deep Learning with Scikit-learn, TensorFlow
+              TensorFlowJS, Chatbots
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Chatbots, Messaging Queues and Data Pipelines
+              Messaging Queues and Data Pipelines
             </Typography>
             <Typography variant="subheading" className={styles.text}>
               Databases - Postgres, MySQL, Elasticsearch, MongoDB
@@ -65,10 +50,7 @@ class Skill extends React.Component {
               Development Cycle and Operations
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Continous Delivery - Gitlab CI/CD Pipelines, Jenkins
-            </Typography>
-            <Typography variant="subheading" className={styles.text}>
-              Docker, S2I, Seldon-Core, Kubernetes
+              Git, Docker, Kubernetes
             </Typography>
           </div>
           <svg
