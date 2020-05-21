@@ -11,10 +11,9 @@ import ListItemText from "@material-ui/core/ListItemText";
 import List from "@material-ui/core/List";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookSquare,
   faLinkedin,
   faTwitter,
-  faGithub
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import Home from "@material-ui/icons/Home";
 import Person from "@material-ui/icons/Person";
@@ -28,7 +27,7 @@ import { navigate } from "@reach/router";
 const drawerWidth = 300;
 const basepath = "/profile";
 
-const styler = theme => {
+const styler = (theme) => {
   return {
     drawerPaper: {
       position: "relative",
@@ -36,20 +35,20 @@ const styler = theme => {
       width: drawerWidth,
       transition: theme.transitions.create("width", {
         easing: theme.transitions.easing.sharp,
-        duration: theme.transitions.duration.enteringScreen
-      })
+        duration: theme.transitions.duration.enteringScreen,
+      }),
     },
     drawerPaperClose: {
       overflowX: "hidden",
       transition: theme.transitions.create("width", {
         easing: theme.transitions.easing.sharp,
-        duration: theme.transitions.duration.leavingScreen
+        duration: theme.transitions.duration.leavingScreen,
       }),
       width: theme.spacing.unit * 7,
       [theme.breakpoints.up("sm")]: {
-        width: theme.spacing.unit * 9
-      }
-    }
+        width: theme.spacing.unit * 9,
+      },
+    },
   };
 };
 
@@ -63,7 +62,7 @@ class SideBar extends React.Component {
           paper: classNames(
             classes.drawerPaper,
             !this.props.open && classes.drawerPaperClose
-          )
+          ),
         }}
         open={this.props.open}
         onMouseOver={this.props.trigger}
@@ -95,12 +94,21 @@ class SideBar extends React.Component {
             noWrap={false}
           >
             Hello! I'm Sachin.
-            <br /> I'm a developer &#128526;
           </Typography>
         </div>
         <Divider />
         <List>{PageLinks}</List>
         <Divider />
+        <Typography
+          variant="subheading"
+          className={classNames(styles.intro, !this.props.open && styles.hide)}
+          noWrap={false}
+        >
+          Get in touch
+          <span role="img" aria-label="hello">
+            &#128075;
+          </span>
+        </Typography>
         <List>{ConnectLinks}</List>
         <Divider />
       </Drawer>
@@ -193,17 +201,6 @@ const ConnectLinks = (
         <FontAwesomeIcon icon={faTwitter} />
       </ListItemIcon>
       <ListItemText primary="Twitter" />
-    </ListItem>
-    <ListItem
-      button
-      onClick={() => {
-        window.open("https://www.facebook.com/sachin.varghese.127", "_blank");
-      }}
-    >
-      <ListItemIcon>
-        <FontAwesomeIcon icon={faFacebookSquare} />
-      </ListItemIcon>
-      <ListItemText primary="Facebook" />
     </ListItem>
     <ListItem
       button
