@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import registerServiceWorker from "./registerServiceWorker";
+import {unregister} from "./registerServiceWorker";
 
 import JssProvider from "react-jss/lib/JssProvider";
 import { create } from "jss";
@@ -18,4 +18,4 @@ ReactDOM.render(
   </JssProvider>,
   document.getElementById("root")
 );
-registerServiceWorker();
+unregister();
