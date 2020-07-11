@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d16a47926cac8cc49b22573fa4744a0",
+    "revision": "30879af2c3a640af061f2633fb9d7545",
     "url": "/profile/index.html"
   },
   {
-    "revision": "5edbfbd542e698194e07",
+    "revision": "732001ec5c318a22c6e6",
     "url": "/profile/static/css/3.a641e29a.chunk.css"
   },
   {
-    "revision": "3af0ce5403efd2db9f51",
+    "revision": "5578f71c525cf6fc6d3b",
     "url": "/profile/static/css/4.775e69ba.chunk.css"
   },
   {
-    "revision": "37dc2a9a3b14dd212596",
+    "revision": "cf428e849d1afbca0a95",
     "url": "/profile/static/css/main.6145c4cf.chunk.css"
   },
   {
@@ -20,20 +20,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/profile/static/js/2.c6fe6eb0.chunk.js"
   },
   {
-    "revision": "5edbfbd542e698194e07",
-    "url": "/profile/static/js/3.4c4912dc.chunk.js"
+    "revision": "732001ec5c318a22c6e6",
+    "url": "/profile/static/js/3.a36e9f1b.chunk.js"
   },
   {
-    "revision": "3af0ce5403efd2db9f51",
-    "url": "/profile/static/js/4.d97b741d.chunk.js"
+    "revision": "5578f71c525cf6fc6d3b",
+    "url": "/profile/static/js/4.3d9ad6cd.chunk.js"
   },
   {
-    "revision": "37dc2a9a3b14dd212596",
-    "url": "/profile/static/js/main.25aab80c.chunk.js"
+    "revision": "cf428e849d1afbca0a95",
+    "url": "/profile/static/js/main.5938ce55.chunk.js"
   },
   {
-    "revision": "c4295f9e995f438a3abc",
-    "url": "/profile/static/js/runtime-main.248977da.js"
+    "revision": "7e8e60e89678dfe7418a",
+    "url": "/profile/static/js/runtime-main.e06466cd.js"
   },
   {
     "revision": "cd82da6361eb2795d01263bb4d6b5160",
@@ -102,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fafac11f855a88e52f99c66b1b7b8353",
     "url": "/profile/static/media/k8s.fafac11f.png"
+  },
+  {
+    "revision": "3991a887d7990f43109304811dc2eda5",
+    "url": "/profile/static/media/kubeflow.3991a887.jpg"
   },
   {
     "revision": "5a305d7125e486422a74298e6de62408",

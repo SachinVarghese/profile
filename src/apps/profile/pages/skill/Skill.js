@@ -20,37 +20,37 @@ class Skill extends React.Component {
               C++, Golang, Javascript
             </Typography>
             <Typography variant="title" className={styles.text} color="primary">
-              Web Technologies and Frameworks
+              Technologies and Frameworks
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              User Interface design HTML and CSS
+              Web Server Design, REST, Web Sockets, gRPC
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              API Design REST, Web Sockets, gRPC
+              Kubeflow, TensorFlow, ML Serving
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              NodeJS, NPM, Electron
+              NoSQL Databases, Cloud Object Storage, ML metadata
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              ReactJS, JSX, ECMA Script
+              Data visualization with React, WebGL, D3, ThreeJS
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              SVG, WebGL, D3, ThreeJS
+              UI design HTML/CSS, JS, JSX, ECMA Script
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              TensorFlowJS, Chatbots
+              Desktop Applications, NodeJS, Electron
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Messaging Queues and Data Pipelines
-            </Typography>
-            <Typography variant="subheading" className={styles.text}>
-              Databases - Postgres, MySQL, Elasticsearch, MongoDB
+              Data Streams, Messaging Queues and Pipelines
             </Typography>
             <Typography variant="title" className={styles.text} color="primary">
               Development Cycle and Operations
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Git, Docker, Kubernetes
+              GitOps, CI/CD processes
+            </Typography>
+            <Typography variant="subheading" className={styles.text}>
+              Docker, Kubernetes
             </Typography>
           </div>
           <svg

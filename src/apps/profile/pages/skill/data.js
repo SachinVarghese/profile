@@ -78,13 +78,6 @@ export default [
   },
   {
     cat: "language",
-    name: "R",
-    value: 20,
-    icon: "./img/r.jpeg",
-    url: "https://www.r-project.org/about.html"
-  },
-  {
-    cat: "language",
     name: "Elixir",
     value: 20,
     icon: "./img/elixir.png",
@@ -133,16 +126,9 @@ export default [
     url: "https://www.postgresql.org/"
   },
   {
-    cat: "database",
-    name: "MySQL",
-    value: 30,
-    icon: "./img/mysql.png",
-    url: "https://www.mysql.com/"
-  },
-  {
     cat: "tooling",
     name: "Git",
-    value: 80,
+    value: 60,
     icon: "./img/git.png",
     url: "https://git-scm.com/"
   },
@@ -166,5 +152,12 @@ export default [
     value: 50,
     icon: "./img/webgl.png",
     url: "https://www.khronos.org/webgl/"
+  },
+  {
+    cat: "framework",
+    name: "Kubeflow",
+    value: 50,
+    icon: "./img/kubeflow.jpg",
+    url: "https://www.kubeflow.org/"
   }
 ];

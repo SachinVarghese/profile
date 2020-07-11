@@ -29,13 +29,8 @@ class Avocation extends React.Component {
             captain for more than a year and participated in multiple
             tournaments across the country. I am an avid follower of NBA teams
             and also happy to still indulge in the workplace basketball club
-            activities.
-            <br />
-            <br />
-            My other hobbies would be playing chess, in fact, I would love any
-            strategy game. And lastly I would love to travel. Though this
-            something that I have not been able to indulge in much lately, I
-            hope to travel as much as possible!
+            activities. My other hobbies would be playing chess, in fact, I would love any
+            strategy board game.
           </Typography>
         </div>
         <div className={styles.picContent}>

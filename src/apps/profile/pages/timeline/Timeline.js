@@ -13,8 +13,8 @@ class Timeline extends React.Component {
       <div className={styles.mainBackground}>
         <VerticalTimeline>
           <VerticalTimelineElement
-            contentArrowStyle={{ borderRight: "7px solid  rgb(252, 182, 3)" }}
-            iconStyle={{ background: "rgb(252, 182, 3)", color: "#fff" }}
+            contentArrowStyle={{ transform: "scale(2)", borderRight: "10px solid  rgb(16, 204, 82)" }}
+            iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
             icon={<Star />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -25,14 +25,14 @@ class Timeline extends React.Component {
               Currently working as a part of the tech team at Seldon in London,
               United Kingdom. I find myself continuing on my journey building
               products to streamline machine learning deployment processes in
-              these enterprise complex ecosystems.
+              the complex enterprise ecosystems. At the same time, it is great to be part of an open core organisation.
               <a href="https://www.seldon.io/tech/products/deploy/">
                 {" Seldon Deploy"}
               </a>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{ transform: "scale(2) rotateY(180deg)", borderRight: "10px solid  rgb(33, 150, 243)" }}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<Star />}
           >
@@ -53,7 +53,7 @@ class Timeline extends React.Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{ transform: "scale(2)", borderRight: "10px solid  rgb(33, 150, 243)" }}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<Star />}
           >
@@ -76,7 +76,7 @@ class Timeline extends React.Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{ transform: "scale(2) rotateY(180deg)", borderRight: "10px solid  rgb(33, 150, 243)" }}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<Star />}
           >
@@ -93,7 +93,7 @@ class Timeline extends React.Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            contentArrowStyle={{ borderRight: "7px solid  rgb(233, 30, 99)" }}
+            contentArrowStyle={{ transform: "scale(2)", borderRight: "10px solid  rgb(233, 30, 99)" }}
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={<Star />}
           >
@@ -110,8 +110,8 @@ class Timeline extends React.Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            contentArrowStyle={{ borderRight: "7px solid  rgb(16, 204, 82)" }}
-            iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+            contentArrowStyle={{ transform: "scale(2) rotateY(180deg)", borderRight: "10px solid  rgb(252, 182, 3)" }}
+            iconStyle={{ background: "rgb(252, 182, 3)", color: "#fff" }}
             icon={<Star />}
           >
             <h3 className="vertical-timeline-element-title">
