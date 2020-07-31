@@ -83,6 +83,23 @@ class About extends React.Component {
             I am looking forward to more discussions, experiments and
             collaborations that could shape our future.
           </Typography>
+        <div
+          class="LI-profile-badge"
+          data-version="v1"
+          data-size="large"
+          data-locale="en_US"
+          data-type="horizontal"
+          data-theme="dark"
+          data-vanity="sachinmv"
+          style={{marginTop:50}}
+        >
+          <a
+            class="LI-simple-link"
+            href="https://uk.linkedin.com/in/sachinmv?trk=profile-badge"
+          >
+            Sachin Mathew Varghese
+          </a>
+        </div>
         </div>
       </div>
     );
