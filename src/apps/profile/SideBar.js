@@ -93,14 +93,14 @@ class SideBar extends React.Component {
             )}
             noWrap={false}
           >
-            Hello! I'm Sachin.
+            Sachin Varghese
           </Typography>
         </div>
         <Divider />
         <List>{PageLinks}</List>
         <Divider />
         <Typography
-          variant="subheading"
+          variant="caption"
           className={classNames(styles.intro, !this.props.open && styles.hide)}
           noWrap={false}
         >
@@ -194,7 +194,7 @@ const ConnectLinks = (
     <ListItem
       button
       onClick={() => {
-        window.open("https://twitter.com/SachinMV31", "_blank");
+        window.open("https://twitter.com/sachinmv31", "_blank");
       }}
     >
       <ListItemIcon>
