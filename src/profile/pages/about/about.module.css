@@ -1,0 +1,34 @@
+.mainBackground {
+  composes: dFlex from "./../../../app.module.css";
+  composes: flex1 from "./../../../app.module.css";
+  flex-direction: column;
+  overflow: auto;
+  background-image: url("./../../../assets/cover_main.jpeg");
+  background-size: cover;
+  background-color: darkslategrey;
+  background-blend-mode: multiply;
+  flex: 1;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+.outerContent {
+  padding: 150px;
+}
+
+
+.textHeader {
+  font-family: "Average", serif;
+  margin: 5px;
+  font-weight: bolder;
+  text-shadow: 2px 2px black;
+  color: ghostwhite;
+}
+
+.textContent {
+  font-family: "Average", serif;
+  margin: 20px 5px 20px 5px;
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+  color: whitesmoke;
+}

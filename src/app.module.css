@@ -13,6 +13,7 @@
 .fullSize {
   composes: fullHeight;
   composes: fullWidth;
+  display: flex;
 }
 
 .flex1 {
