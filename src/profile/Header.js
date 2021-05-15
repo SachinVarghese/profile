@@ -65,7 +65,7 @@ const PageLinks = (
     >
       <Person />
       <ListItemText
-        primary="About"
+        primary="Prologue"
         primaryTypographyProps={{ color: "primary" }}
       />
     </ListItem>

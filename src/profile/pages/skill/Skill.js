@@ -17,40 +17,34 @@ class Skill extends React.Component {
               Programming Languages
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Golang, C++, Javascript
+              Golang, C++, Javascript, Python
             </Typography>
             <Typography variant="title" className={styles.text} color="primary">
               Technologies and Frameworks
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Web Server Design, REST, Web Sockets, gRPC
+              Cloud Servers and APIs - Cloud Events, REST, Web Sockets, gRPC
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Kubeflow, TensorFlow, ML Serving
+              Containerization - Docker, Kubernetes, Distroless
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              NoSQL Databases, Cloud Object Storage, ML metadata
+              MLOPs - Seldon, Kubeflow KFServing, TensorFlow Serving
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Data visualization with React, WebGL, D3, ThreeJS
+              Data Streams, Messaging Queues and Kafka Pipelines
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              UI design HTML/CSS, JS, JSX, ECMA Script
+              Databases - Relational, NoSQL, Object Storage, Metrics
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Desktop Applications, NodeJS, Electron
+              Data visualization - HTML, React, WebGL, D3, ThreeJS
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              Data Streams, Messaging Queues and Pipelines
-            </Typography>
-            <Typography variant="title" className={styles.text} color="primary">
-              Development Cycle and Operations
+              Desktop Applications - NodeJS, Electron, Documenation
             </Typography>
             <Typography variant="subheading" className={styles.text}>
-              GitOps, CI/CD processes
-            </Typography>
-            <Typography variant="subheading" className={styles.text}>
-              Docker, Kubernetes
+              Source Control - Declarative infrastructure, GitOps, CI/CD processes, 
             </Typography>
           </div>
           <svg

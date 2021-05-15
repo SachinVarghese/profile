@@ -9,18 +9,34 @@ class About extends React.Component {
       <div className={styles.mainBackground}>
         <div className={classNames(styles.outerContent)}>
           <Typography className={styles["textHeader"]} variant="display1">
-            The tale of me and the wide web world
+            The tale of me and some intelligent sharable software systems
           </Typography>
           <Typography
             className={styles["textContent"]}
             variant="subheading"
             align="justify"
           >
-            Today web based applications power the world, they are everywhere -
-            desktop, cloud and even the edge. The web has become the medium of
-            all the knowledge the world has acquired. So, it is of great
-            interest for me to create applications that contribute to the
-            development of this technology. I enjoy creating data procesing
+            Humans have always been attracted to new, complex and challenging
+            ideas. We get easily bored by monotonous tasks and always are in a
+            quest to solve difficult problems and answers to the unknown. Along
+            our journey, we have developed machines to help us with the dull
+            tasks of our everyday life and also assist us in solve some
+            interesting challenges. Today the macines are being programmed to
+            make important intelligent decisions that directly affect human
+            lives.
+          </Typography>
+          <Typography
+            className={styles["textContent"]}
+            variant="subheading"
+            align="justify"
+          >
+            As a 21st century homo sapien, it is in my DNA to find and work on
+            interesting problems. One of the biggest challenges in the current
+            era is the development, rollout and operationalization of
+            intelligent machines.Today intelligent applications power the world,
+            they are everywhere - desktop, cloud and even the edge. Hence, it is
+            of great interest for me to contribute to the development of this
+            technology. I enjoy creating cloud servers, data procesing
             pipelines, control systems and user interfaces for applications in
             machine learning operationaliztion, advanced analytics and serving
             on the cloud.
@@ -33,34 +49,20 @@ class About extends React.Component {
             The World Wide Web was invented by British scientist Tim Berners-Lee
             in 1989 while working at CERN. An invention for the basic need of
             efficient information sharing has created the internet that we see
-            today. Data visualization, digital media and virtual experiences are
-            prime examples of new age information sharing capabilities. But I
-            believe that there is more to come. Humans are already experimenting
-            with sharing AI powered inferences and even quantum computation on
-            the web. It is really an interesting time to be working on the Web.
-          </Typography>
-
-          <Typography
-            className={styles["textContent"]}
-            variant="subheading"
-            align="justify"
-          >
-            The web has made a lot of data and information accessible to the
-            world. But in order to effectively utilize this massive amount of
-            bits in the form of electrical energy, they need to be presented in
-            a manner that is easily understandable to the human brain. I find
-            this aspect of software development extremely interesting and hence,
-            user interface development and data visualization has been a massive
-            part of my work experience. The evolution of user interfaces has
-            been very rapid considering the fact that we were working with
-            simple markup text two decades back and now we are starting to see
-            advanced virtual reality devices in the market. Web requests involve
-            data retrieval, manipulation or computation for many real world use
-            cases. Data compuation happens at every level in the digital world
-            from user interfaces to storage solutions to data encoding and error
-            control. A lot of interesting research is being carried out to
-            efficiently compute both in terms of resources utilization and the
-            latency.
+            today. The web has become the medium of all the knowledge the world
+            has acquired. Software sharing, virtual currency and augumented
+            reality are prime examples of new age information sharing
+            capabilities. But I am sure that there is more to come. We are
+            already experimenting with AI powered inferences and even quantum
+            computation on the web. It is really an interesting time to be
+            working on the <b>intelligent sharable software systems</b>. The web
+            has made a lot of data and information accessible to the world. But
+            in order to effectively utilize this massive amount of bits in the
+            form of electrical energy, they need to be presented in a manner
+            that is easily understandable to the human brain. I find this aspect
+            of software development extremely interesting and hence, data
+            practices, API design, user interfaces and explainability and
+            visualization of software has been a vital part of my work.
           </Typography>
           <Typography
             className={styles["textContent"]}
@@ -73,7 +75,7 @@ class About extends React.Component {
             innovative solutions more efficient, inexpensive and easily
             accessible is the way for the future. My perspective is corroborated
             by the huge number of people open sourcing and adopting these
-            solutions in their technological products.
+            solutions in their technological products in the recent past.
           </Typography>
           <Typography
             className={styles["textContent"]}
@@ -83,23 +85,13 @@ class About extends React.Component {
             I am looking forward to more discussions, experiments and
             collaborations that could shape our future.
           </Typography>
-        <div
-          class="LI-profile-badge"
-          data-version="v1"
-          data-size="large"
-          data-locale="en_US"
-          data-type="horizontal"
-          data-theme="dark"
-          data-vanity="sachinmv"
-          style={{marginTop:50}}
-        >
-          <a
-            class="LI-simple-link"
-            href="https://uk.linkedin.com/in/sachinmv?trk=profile-badge"
-          >
-            Sachin Mathew Varghese
-          </a>
-        </div>
+          <iframe
+            height="320"
+            width="350"
+            title="Linkdin Badge"
+            src="/linkdin-badge.html"
+            style={{ border: "none" }}
+          ></iframe>
         </div>
       </div>
     );

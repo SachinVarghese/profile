@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./timeline.module.css";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Star from "@material-ui/icons/Star";
@@ -13,26 +13,33 @@ class Timeline extends React.Component {
       <div className={styles.mainBackground}>
         <VerticalTimeline>
           <VerticalTimelineElement
-            contentArrowStyle={{ transform: "scale(2)", borderRight: "10px solid  rgb(16, 204, 82)" }}
+            contentArrowStyle={{
+              transform: "scale(2)",
+              borderRight: "10px solid  rgb(16, 204, 82)",
+            }}
             iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
             icon={<Star />}
           >
             <h3 className="vertical-timeline-element-title">
-              Full Stack Developer, Seldon
+              Software Engineer, Seldon
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">2020-Present</h4>
+            <h4 className="vertical-timeline-element-subtitle">2019-Present</h4>
             <p>
-              Currently working as a part of the tech team at Seldon in London,
-              United Kingdom. I find myself continuing on my journey building
-              products to streamline machine learning deployment processes in
-              the complex enterprise ecosystems. At the same time, it is great to be part of an open core organisation.
+              I am working as a part of the tech team at Seldon in London,
+              United Kingdom, currently. I find myself continuing on my journey
+              building products to streamline machine learning deployment
+              processes in the complex enterprise ecosystems. At the same time,
+              it is great to be part of an open core organisation.
               <a href="https://www.seldon.io/tech/products/deploy/">
                 {" Seldon Deploy"}
               </a>
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            contentArrowStyle={{ transform: "scale(2) rotateY(180deg)", borderRight: "10px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{
+              transform: "scale(2) rotateY(180deg)",
+              borderRight: "10px solid  rgb(33, 150, 243)",
+            }}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<Star />}
           >
@@ -53,7 +60,10 @@ class Timeline extends React.Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            contentArrowStyle={{ transform: "scale(2)", borderRight: "10px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{
+              transform: "scale(2)",
+              borderRight: "10px solid  rgb(33, 150, 243)",
+            }}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<Star />}
           >
@@ -76,7 +86,10 @@ class Timeline extends React.Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            contentArrowStyle={{ transform: "scale(2) rotateY(180deg)", borderRight: "10px solid  rgb(33, 150, 243)" }}
+            contentArrowStyle={{
+              transform: "scale(2) rotateY(180deg)",
+              borderRight: "10px solid  rgb(33, 150, 243)",
+            }}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<Star />}
           >
@@ -93,7 +106,10 @@ class Timeline extends React.Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            contentArrowStyle={{ transform: "scale(2)", borderRight: "10px solid  rgb(233, 30, 99)" }}
+            contentArrowStyle={{
+              transform: "scale(2)",
+              borderRight: "10px solid  rgb(233, 30, 99)",
+            }}
             iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
             icon={<Star />}
           >
@@ -110,7 +126,10 @@ class Timeline extends React.Component {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            contentArrowStyle={{ transform: "scale(2) rotateY(180deg)", borderRight: "10px solid  rgb(252, 182, 3)" }}
+            contentArrowStyle={{
+              transform: "scale(2) rotateY(180deg)",
+              borderRight: "10px solid  rgb(252, 182, 3)",
+            }}
             iconStyle={{ background: "rgb(252, 182, 3)", color: "#fff" }}
             icon={<Star />}
           >

@@ -2,7 +2,7 @@ export default [
   {
     cat: "language",
     name: "JavaScript",
-    value: 70,
+    value: 50,
     icon: "./img/javascript.png",
     url: "https://www.javascript.com/"
   },
@@ -16,7 +16,7 @@ export default [
   {
     cat: "backend",
     name: "NodeJS",
-    value: 80,
+    value: 60,
     icon: "./img/nodejs.svg",
     url: "https://nodejs.org/en/"
   },
@@ -37,7 +37,7 @@ export default [
   {
     cat: "framework",
     name: "ReactJS",
-    value: 70,
+    value: 50,
     icon: "./img/react.png",
     url: "https://reactjs.org/"
   },
@@ -105,11 +105,11 @@ export default [
     url: "https://www.mathworks.com/products/matlab.html"
   },
   {
-    cat: "framework",
-    name: "NPM",
+    cat: "database",
+    name: "Prometheus",
     value: 30,
-    icon: "./img/npm.png",
-    url: "https://www.npmjs.com/"
+    icon: "./img/prometheus.png",
+    url: "https://prometheus.io/"
   },
   {
     cat: "framework",
@@ -149,7 +149,7 @@ export default [
   {
     cat: "framework",
     name: "WebGL",
-    value: 50,
+    value: 30,
     icon: "./img/webgl.png",
     url: "https://www.khronos.org/webgl/"
   },

@@ -3,9 +3,9 @@
   composes: flex1 from "./../../../app.module.css";
   flex-direction: column;
   overflow: auto;
-  background-image: url("./../../../assets/cover.jpeg");
+  /* background-image: url("./../../../assets/cover.jpeg"); */
   background-size: cover;
-  background-color: grey;
+  /* background-color: grey; */
   background-blend-mode: multiply;
   flex: 1;
   background-position-y: center;
