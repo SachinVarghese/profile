@@ -1,4 +1,6 @@
 import * as d3 from "d3";
+import { selection, select } from 'd3-selection';
+import 'd3-transition';
 
 const SkillChart = function(id, data) {
   var container = document.getElementById(id);
@@ -14,6 +16,7 @@ const SkillChart = function(id, data) {
     .size([width, height])
     .padding(1.5);
 
+  const images = require.context(`./img`, true);
   let forceCollide = d3.forceCollide(d => d.r + 1);
 
   let simulation = d3
@@ -97,7 +100,7 @@ const SkillChart = function(id, data) {
     });
 
   node
-    .filter(d => !String(d.icon).includes("./img/"))
+    .filter(d => !String(d.icon).includes("./"))
     .append("text")
     .attr("clip-path", d => `url(#clip-${d.id})`)
     .selectAll("tspan")
@@ -110,10 +113,10 @@ const SkillChart = function(id, data) {
     .text(name => name);
 
   node
-    .filter(d => String(d.icon).includes("./img/"))
+    .filter(d => String(d.icon).includes("./"))
     .append("image")
     .attr("clip-path", d => `url(#clip-${d.id})`)
-    .attr("xlink:href", d => require(`${d.icon}`))
+    .attr("xlink:href", d => images(`${d.icon}`).default)
     .attr("x", d => -d.radius * 0.7)
     .attr("y", d => -d.radius * 0.7)
     .attr("height", d => d.radius * 2 * 0.7)

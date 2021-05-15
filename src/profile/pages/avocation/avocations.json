@@ -1,18 +1,18 @@
 [
   {
     "name": "Basketball",
-    "src": "./pics/basketball.jpg"
+    "src": "./basketball.jpg"
   },
   {
     "name": "Travel",
-    "src": "./pics/travel.jpg"
+    "src": "./travel.jpg"
   },
   {
     "name": "Soccer",
-    "src": "./pics/soccer.jpg"
+    "src": "./soccer.jpg"
   },
   {
     "name": "Chess",
-    "src": "./pics/chess.jpg"
+    "src": "./chess.jpg"
   }
 ]

@@ -8,7 +8,8 @@ class PictureGrid extends React.Component {
     return (
       <div className={styles.picsContainer}>
         {Pictures.map(pic => {
-          return <PictureCard key={pic.name} src={require(`${pic.src}`)} />;
+          const images = require.context(`./pics`, true);
+          return <PictureCard key={pic.name} src={images(`${pic.src}`).default} />;
         })}
       </div>
     );
