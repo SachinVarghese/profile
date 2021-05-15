@@ -89,7 +89,7 @@ class About extends React.Component {
             height="320"
             width="350"
             title="Linkdin Badge"
-            src="/linkdin-badge.html"
+            src="/profile/linkdin-badge.html"
             style={{ border: "none" }}
           ></iframe>
         </div>
