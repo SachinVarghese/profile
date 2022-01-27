@@ -16,7 +16,7 @@
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3",
     "react-vertical-timeline-component": "^2.5.0",
-    "three": "^0.128.0"
+    "three": "^0.137.0"
   },
   "homepage": "/profile",
   "scripts": {
