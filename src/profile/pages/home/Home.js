@@ -81,7 +81,7 @@ class Skill extends React.Component {
                 height="300"
                 title="Linkdin Badge"
                 src="/profile/linkdin-badge.html"
-                style={{ border: "none", minWidth: 335 }}
+                style={{ border: "none", minWidth: 350 }}
               ></iframe>
             </div>
           </div>
