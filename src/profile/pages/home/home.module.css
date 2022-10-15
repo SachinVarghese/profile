@@ -5,12 +5,10 @@
 }
 
 .textHeader {
-  font-family: "Average", serif;
   margin: 5px;
 }
 
 .text {
-  font-family: "Average", serif;
   padding: 5px;
 }
 
@@ -41,10 +39,11 @@
   background-size: cover;
   background-color: lightgrey;
   background-blend-mode: multiply;
-  height: 450px;
+  flex: 1;
   background-position-y: center;
   background-repeat: no-repeat;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  min-height: 300px;
 }
 
 @media only screen and (max-device-width: 640px) {

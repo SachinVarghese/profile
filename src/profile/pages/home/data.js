@@ -9,7 +9,7 @@ export default [
   {
     cat: "language",
     name: "Golang",
-    value: 60,
+    value: 50,
     icon: "./golang.png",
     url: "https://golang.org/",
   },
@@ -51,7 +51,7 @@ export default [
   {
     cat: "framework",
     name: "Alibi Detect",
-    value: 30,
+    value: 20,
     icon: "./alibi-detect.png",
     url: "https://github.com/SeldonIO/alibi-detect",
   },

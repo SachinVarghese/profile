@@ -12,12 +12,18 @@ class Skill extends React.Component {
         <div className={styles.sceneBackground}>
           <div
             className={styles.dualBackground}
-            style={{ flex: 1, padding: "0% 5%", marginTop: 50 }}
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              flex: 5,
+              padding: "0% 5%",
+              marginTop: 30,
+            }}
           >
             <Paper className={styles.imgBackground}>
               <div className={styles.mainTextCover}>
                 <Typography
-                  variant="title"
+                  variant="display1"
                   className={styles.mainText}
                   align="center"
                 >
@@ -27,57 +33,62 @@ class Skill extends React.Component {
               </div>
             </Paper>
 
-            <Typography
-              variant="headline"
-              className={styles.text}
-              color="secondary"
+            <div
+              style={{
+                flex: 1,
+                display: "flex",
+                justifyContent: "space-between",
+              }}
             >
-              Areas of Interest
-            </Typography>
-            <Typography variant="display1" className={styles.text}>
-              Real-time data analytics & Kafka stream processing
-            </Typography>
-            <Typography variant="display1" className={styles.text}>
-              OLAP data stores & batch processing workflows
-            </Typography>
-            <Typography variant="display1" className={styles.text}>
-              Data observability - outliers & drift detection metrics
-            </Typography>
-            <Typography variant="display1" className={styles.text}>
-              Data visualization - web technologies - D3, ReactJS
-            </Typography>
-            <Typography variant="display1" className={styles.text}>
-              ML deployments with Seldon Core, MLServer, TensorFlow
-            </Typography>
-            <Typography variant="display1" className={styles.text}>
-              Cloud technologies - Kubernetes, Docker, Gitops
-            </Typography>
-            <div style={{ display: "flex", margin: "40px 0px" }}>
-              <iframe
-                height="320"
-                width="350"
-                title="Linkdin Badge"
-                src="/profile/linkdin-badge.html"
-                style={{ border: "none" }}
-              ></iframe>
-              <div style={{ padding: 30 }}>
+              <div style={{ padding: 5 }}>
                 <Typography
-                  variant="headline"
+                  variant="subheading"
+                  className={styles.text}
+                  color="secondary"
+                >
+                  Areas of Interest
+                </Typography>
+                <Typography variant="headline" className={styles.text}>
+                  Real-time data analytics & Kafka stream processing
+                </Typography>
+                <Typography variant="headline" className={styles.text}>
+                  OLAP data stores & batch processing workflows
+                </Typography>
+                <Typography variant="headline" className={styles.text}>
+                  Data observability - outliers & drift detection metrics
+                </Typography>
+                <Typography variant="headline" className={styles.text}>
+                  Data visualization - web technologies - D3, ReactJS
+                </Typography>
+                <Typography variant="headline" className={styles.text}>
+                  ML deployments with Seldon Core, MLServer, TensorFlow
+                </Typography>
+                <Typography variant="headline" className={styles.text}>
+                  Cloud technologies - Kubernetes, Docker, Gitops
+                </Typography>
+                <Typography
+                  variant="subheading"
                   className={styles.text}
                   color="secondary"
                 >
                   Programming Languages
                 </Typography>
-                <Typography variant="display1" className={styles.text}>
-                  - Golang <br /> - Python <br /> - Javascript
+                <Typography variant="headline" className={styles.text}>
+                  Golang - Python - Javascript
                 </Typography>
               </div>
+              <iframe
+                height="300"
+                title="Linkdin Badge"
+                src="/profile/linkdin-badge.html"
+                style={{ border: "none", minWidth: 335 }}
+              ></iframe>
             </div>
           </div>
           <svg
             id="skill-scene"
             className={styles.dualBackground}
-            style={{ flex: 1, marginTop: 50 }}
+            style={{ flex: 4, marginTop: 30 }}
           />
         </div>
       </div>
