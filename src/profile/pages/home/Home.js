@@ -49,22 +49,19 @@ class Skill extends React.Component {
                   Areas of Interest
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
-                  Real-time data analytics & Kafka stream processing
+                  OLAP data stores, Stream processing & Real-time analytics
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
-                  OLAP data stores & batch processing workflows
+                  ML model deployment - Seldon Core, MLServer, TensorFlow
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
-                  Data observability - outliers & drift detection metrics
+                  ML data observability - Outliers & Drift detection
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
-                  Data visualization - web technologies - D3, ReactJS
+                  Data Visualization on the Web - D3, ReactJS
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
-                  ML deployments with Seldon Core, MLServer, TensorFlow
-                </Typography>
-                <Typography variant="headline" className={styles.text}>
-                  Cloud technologies - Kubernetes, Docker, Gitops
+                  Cloud Technologies - Kubernetes, Docker, Gitops
                 </Typography>
                 <Typography
                   variant="subheading"
