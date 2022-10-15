@@ -11,12 +11,9 @@ import {
   faTwitter,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import Person from "@material-ui/icons/Person";
-import TimeLine from "@material-ui/icons/Timeline";
-import Star from "@material-ui/icons/Star";
-import Explore from "@material-ui/icons/Explore";
 import classNames from "classnames";
 import { navigate } from "@reach/router";
+import { Typography } from "@material-ui/core";
 
 const basepath = "/profile";
 
@@ -55,6 +52,18 @@ export default Header;
 
 const PageLinks = (
   <div style={{ display: "flex", marginLeft: 150 }}>
+    <Typography
+      variant="display1"
+      color="primary"
+      style={{ fontFamily: "monospace", marginTop: 10 }}
+    >
+      Sachin Varghese
+    </Typography>
+  </div>
+);
+
+const ConnectLinks = (
+  <div style={{ display: "flex" }}>
     <ListItem
       disableGutters
       button
@@ -63,62 +72,11 @@ const PageLinks = (
       }}
       style={{ cursor: "pointer", transform: "scale(1.1)", margin: "0px 10px" }}
     >
-      <Person />
       <ListItemText
-        primary="Prologue"
+        primary="About"
         primaryTypographyProps={{ color: "primary" }}
       />
     </ListItem>
-    <ListItem
-      disableGutters
-      button
-      onClick={() => {
-        navigate(basepath + "/timeline");
-      }}
-      style={{ cursor: "pointer", transform: "scale(1.1)", margin: "0px 10px" }}
-    >
-      <TimeLine />
-
-      <ListItemText
-        primary="Timeline"
-        primaryTypographyProps={{ color: "primary" }}
-      />
-    </ListItem>
-    <ListItem
-      disableGutters
-      button
-      onClick={() => {
-        navigate(basepath + "/skill");
-      }}
-      style={{ cursor: "pointer", transform: "scale(1.1)", margin: "0px 10px" }}
-    >
-      <Star />
-
-      <ListItemText
-        primary="Skills"
-        primaryTypographyProps={{ color: "primary" }}
-      />
-    </ListItem>
-    <ListItem
-      disableGutters
-      button
-      onClick={() => {
-        navigate(basepath + "/avocation");
-      }}
-      style={{ cursor: "pointer", transform: "scale(1.1)", margin: "0px 10px" }}
-    >
-      <Explore />
-
-      <ListItemText
-        primary="Avocations"
-        primaryTypographyProps={{ color: "primary" }}
-      />
-    </ListItem>
-  </div>
-);
-
-const ConnectLinks = (
-  <div style={{ display: "flex" }}>
     <ListItem
       onClick={() => {
         window.open("https://www.linkedin.com/in/sachinmv/", "_blank");

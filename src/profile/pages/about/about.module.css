@@ -10,12 +10,12 @@
   flex: 1;
   background-position-y: center;
   background-repeat: no-repeat;
+  padding: "0% 5%";
 }
 
 .outerContent {
   padding: 50px;
 }
-
 
 .textHeader {
   font-family: "Average", serif;
@@ -31,4 +31,30 @@
   font-size: 20px;
   text-shadow: 2px 2px black;
   color: whitesmoke;
+}
+
+.picsContainer {
+  composes: flex1 from "./../../../app.module.css";
+  composes: dFlex from "./../../../app.module.css";
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.card {
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+  padding-bottom: 40px;
+  height: 200px;
+  width: 200px;
+  max-width: 345px;
+  composes: dFlex from "./../../../app.module.css";
+}
+
+.media {
+  composes: flex1 from "./../../../app.module.css";
 }

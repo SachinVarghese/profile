@@ -2,23 +2,22 @@
 
 https://sachinvarghese.github.io/
 
-
 # Running locally
 
-- Install yarn and run to install dependencies
+- Install npm and run to install dependencies
 
 ```
-yarn
+npm i
 ```
 
 - Start dev server
 
 ```
-yarn start
+npm start
 ```
 
 - Build and Commit
 
 ```
-yarn build
+npm run build
 ```

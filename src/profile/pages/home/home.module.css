@@ -1,27 +1,54 @@
 .mainBackground {
-  composes: dFlex from "./../../../app.module.css";
   composes: flex1 from "./../../../app.module.css";
-  overflow: hidden;
+  composes: dFlex from "./../../../app.module.css";
+  flex-direction: column;
 }
 
-.mainBackground {
-  background-image: url("./../../../assets/cover_new.jpeg");
-  background-size: cover;
-  background-color: grey;
-  background-blend-mode: multiply;
-  flex: 1;
-  background-position-y: center;
-  background-repeat: no-repeat;
+.textHeader {
+  font-family: "Average", serif;
+  margin: 5px;
+}
+
+.text {
+  font-family: "Average", serif;
+  padding: 5px;
 }
 
 .mainTextCover {
-  position: absolute;
-  top: 20%;
-  left: 15%;
+  position: relative;
+  top: 25%;
+  left: 10%;
+  width: 30%;
 }
 
 .mainText {
   font-family: "Average", serif;
   color: white;
-  text-shadow: 4px 2px cadetblue;
+  text-shadow: 3px 3px black;
+}
+
+.sceneBackground {
+  composes: flex1 from "./../../../app.module.css";
+  composes: dFlex from "./../../../app.module.css";
+}
+
+.node {
+  cursor: pointer;
+}
+
+.imgBackground {
+  background-image: url("./../../../assets/cover_new.jpeg");
+  background-size: cover;
+  background-color: lightgrey;
+  background-blend-mode: multiply;
+  height: 450px;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-device-width: 640px) {
+  .sceneBackground {
+    flex-direction: column;
+  }
 }
