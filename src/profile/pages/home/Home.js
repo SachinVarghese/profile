@@ -27,8 +27,7 @@ class Skill extends React.Component {
                   className={styles.mainText}
                   align="center"
                 >
-                  Hello! I'm Sachin <br /> Software Engineer, Researcher,
-                  Developer
+                  Hello! I'm Sachin <br /> Software Engineer & Researcher
                 </Typography>
               </div>
             </Paper>
@@ -49,13 +48,13 @@ class Skill extends React.Component {
                   Areas of Interest
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
-                  OLAP data stores, Stream processing & Real-time analytics
+                  Applied AI and MLOps - Seldon Core, MLServer, TensorFlow
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
-                  ML model deployment - Seldon Core, MLServer, TensorFlow
+                  OLAP Data stores, Stream processing & Real-time Analytics
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
-                  ML data observability - Outliers & Drift detection
+                  Data Observability tools - Outlier & Drift Detection
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
                   Data Visualization on the Web - D3, ReactJS

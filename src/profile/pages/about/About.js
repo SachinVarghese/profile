@@ -15,81 +15,67 @@ class About extends React.Component {
     return (
       <div className={styles.mainBackground}>
         <div className={classNames(styles.outerContent)}>
-          <Typography className={styles["textHeader"]} variant="display1">
-            The tale of me and intelligent sharable software systems
+          <Typography
+            className={styles["textHeader"]}
+            variant="display1"
+            align="center"
+          >
+            About me and the story so far..
           </Typography>
           <Typography
             className={styles["textContent"]}
-            variant="subheading"
+            variant="title"
             align="justify"
           >
-            Humans have always been attracted to new, complex and challenging
-            ideas. We get easily bored by monotonous tasks and always are in a
-            quest to solve difficult problems and answers to the unknown. Along
-            our journey, we have developed machines to help us with the dull
-            tasks of our everyday life and also assist us in solve some
-            interesting challenges. Today the macines are being programmed to
-            make important intelligent decisions that directly affect human
-            lives.
+            I am Sachin Varghese. I introduce myself as a software engineer and
+            a researcher.
+            <br />
+            These are the main roles that I thoroughly enjoy and see myself
+            stepping into on a daily basis.
+            <br /> Always managed to find myself in a quest to solve difficult
+            problems and answers to the unknown.
           </Typography>
           <Typography
             className={styles["textContent"]}
-            variant="subheading"
-            align="justify"
+            variant="title"
+            align="right"
           >
-            As a 21st century homo sapien, it is in my DNA to find and work on
-            interesting problems. One of the biggest challenges in the current
-            era is the development, rollout and operationalization of
-            intelligent machines.Today intelligent applications power the world,
-            they are everywhere - desktop, cloud and even the edge. Hence, it is
-            of great interest for me to contribute to the development of this
-            technology. I enjoy creating cloud servers, data procesing
-            pipelines, control systems and user interfaces for applications in
-            machine learning operationaliztion, advanced analytics and serving
-            on the cloud.
+            Today, we have software systems that make many important intelligent
+            decisions on our behalf. <br />
+            Such artificially intelligent applications are everywhere - desktop,
+            cloud and the edge. <br /> However, the deployment, improvement and
+            operationalization of such AI systems is still a huge challenge.
+            <br />
           </Typography>
           <Typography
             className={styles["textContent"]}
-            variant="subheading"
+            variant="title"
             align="justify"
           >
-            The World Wide Web was invented by British scientist Tim Berners-Lee
-            in 1989 while working at CERN. An invention for the basic need of
-            efficient information sharing has created the internet that we see
-            today. The web has become the medium of all the knowledge the world
-            has acquired. Software sharing, virtual currency and augumented
-            reality are prime examples of new age information sharing
-            capabilities. But I am sure that there is more to come. We are
-            already experimenting with AI powered inferences and even quantum
-            computation on the web. It is really an interesting time to be
-            working on the <b>intelligent sharable software systems</b>. The web
-            has made a lot of data and information accessible to the world. But
-            in order to effectively utilize this massive amount of bits in the
-            form of electrical energy, they need to be presented in a manner
-            that is easily understandable to the human brain. I find this aspect
-            of software development extremely interesting and hence, data
-            practices, API design, user interfaces and explainability and
-            visualization of software has been a vital part of my work.
+            It is of great interest for me to contribute in this domain to help
+            build accurate and ethical AI systems.
+            <br /> I build applications and data processing solutions to manage
+            and monitor AI deployments at scale. <br />
+            My key areas of interest are,
+            <br />
+            <br />
+            &#9733; Applied AI & MLOps <br />
+            &#9733; Data stores for real-time analytics <br />
+            &#9733; ML Data observability
           </Typography>
+
           <Typography
             className={styles["textContent"]}
-            variant="subheading"
-            align="justify"
+            variant="title"
+            align="right"
           >
-            Also, I am an open source advocate, in my opinion, an open
-            constructive collaboration from people across the globe is the most
-            productive way for any technological advancement. Thus, making
-            innovative solutions more efficient, inexpensive and easily
-            accessible is the way for the future. My perspective is corroborated
-            by the huge number of people open sourcing and adopting these
-            solutions in their technological products in the recent past.
-          </Typography>
-          <Typography
-            className={styles["textContent"]}
-            variant="subheading"
-            align="justify"
-          >
-            I am looking forward to more discussions, experiments and
+            Also, I am an open source advocate for any technological
+            advancement. <br />
+            I stongly feel that constructive collaboration by contributors
+            across the globe is the sustainable way forward.
+            <br /> My perspective is validated by the growing number of OSS
+            projects and the adoption rates of such projects.
+            <br />I look forward to more discussions, experimentations and
             collaborations that could shape our future.
           </Typography>
         </div>
@@ -107,11 +93,12 @@ class About extends React.Component {
             </h3>
             <h4 className="vertical-timeline-element-subtitle">2019-Present</h4>
             <p>
-              I am working as a part of the tech team at Seldon in London,
-              United Kingdom, currently. I find myself continuing on my journey
-              building products to streamline machine learning deployment
-              processes in the complex enterprise ecosystems. At the same time,
-              it is great to be part of an open core organisation.
+              I am currently working as a part of the tech team at Seldon in
+              London. I find myself continuing on my journey building products
+              to streamline machine learning deployment and monitoring processes
+              in the complex enterprise ecosystems. It is great to be part of an
+              open core organisation working with some enterprise giants at the
+              same time.
               <a href="https://www.seldon.io/tech/products/deploy/">
                 {" Seldon Deploy"}
               </a>
@@ -130,12 +117,12 @@ class About extends React.Component {
             </h3>
             <h4 className="vertical-timeline-element-subtitle">2017-2019</h4>
             <p>
-              Lead a tech team at Mu Sigma Labs as a senior software developer
-              working on multiple projects for machine learning model
-              operationalization, simulations environments and service
-              availability. This was a different challenge that I found quite
-              enjoyable not only growing as an organised developer but improving
-              my leadership skills.
+              Senior member of the tech team at Mu Sigma Research & Development
+              team working on multiple projects for ML model operationalization,
+              simulations environments and computer vision applications. This
+              was a great experience that I found quite enjoyable not only
+              growing as an organised engineer but improving my leadership
+              skills as a senior software developer.
               <a href="https://www.mu-sigma.com/our-platform/big-data-analytics-software/data-analytics-platform-muiot/">
                 {" Operationalization Platform"}
               </a>
@@ -154,14 +141,15 @@ class About extends React.Component {
             </h3>
             <h4 className="vertical-timeline-element-subtitle">2016-2017</h4>
             <p>
-              I was promoted to the role of a Developer to create a new range of
-              in-house products that can be leveraged by the data scientists and
-              business analysts in the organisations. This involved creating
-              data pipelines, monitoring dashboards, control systems and user
-              interfaces that assist with the daily machine learning workflows.
-              This was an extremely energetic workplace where I build new
-              projects, improved my skills, progressed developer and also
-              started my very first open source contributions.
+              I was promoted to the role of a Developer in the R&D team to
+              create a new range of enterprise MLOps products that can be
+              leveraged by the data scientists and business analysts. This
+              involved creating data pipelines, monitoring dashboards, AI
+              deployments and user interfaces that assist with such machine
+              learning workflows. It was an extremely energetic workplace where
+              I took resposibility of new projects, improved my skills,
+              progressed as a engineer while starting to make valuble open
+              source contributions.
               <a href="https://www.mu-sigma.com/our-platform/big-data-analytics-software">
                 {" Data Analytics Solutions"}
               </a>
@@ -180,11 +168,13 @@ class About extends React.Component {
             </h3>
             <h4 className="vertical-timeline-element-subtitle">2015-2016</h4>
             <p>
-              I joined the Open research wing of the innovation and development
-              team at Mu Sigma Inc in Bangalore, India. This was a really
-              exciting start to a tech career reading, researching, analyzing ,
-              writing whitepapers and other documentations on how new upcoming
-              technologies can be embedded into the organization ecosystem.
+              I joined the Open Research division of the Innovation and
+              Development team at Mu Sigma Inc in Bangalore in 2015. MuSigma is
+              the largest pure-play analytics company in the world and it was a
+              exciting start to a full-time career in tech researching,
+              analyzing, writing whitepapers on how new upcoming technologies
+              can be adopted into the org ecosystem. Got my data science &
+              analytics certification during this period as well.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -201,10 +191,11 @@ class About extends React.Component {
             <h4 className="vertical-timeline-element-subtitle">Summer 2014</h4>
             <p>
               I worked as a research intern at the TIF Lab, Large Hadron
-              Collider site, CERN in Geneva, Switzerland. I was involved in the
-              muon detection project and also developed and installed a weather
-              monitoring system that streams the live environment data in the
-              lab.
+              Collider site, CERN in Geneva. I was involved in the muon
+              detection project, assembling GEM detectors and analysis of the
+              lab setup. Also developed and installed a Raspberry Pi based
+              weather monitoring system that streams the live environment data
+              in the lab onto a dashboard as time-series data.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -221,9 +212,10 @@ class About extends React.Component {
               </h3>
               <h4 className="vertical-timeline-element-subtitle">2011-2015</h4>
               <p>
-                I graduated in Electronics and Communication Engineering from
-                National Institute of Technology, Goa. This was my university
-                experience learning about circuits, programming and computers.
+                I completed my Bachelors degree in Electronics and Communication
+                Engineering from National Institute of Technology, Goa. I was
+                also the captain of the college basketball team among other
+                leadership roles.
               </p>
             </div>
             <PictureGrid />
