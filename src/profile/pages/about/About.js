@@ -30,8 +30,8 @@ class About extends React.Component {
             I am Sachin Varghese. I introduce myself as a software engineer and
             a technology researcher.
             <br />
-            These are the main roles that I thoroughly enjoy and see myself
-            stepping into on a daily basis.
+            These two are the main professional roles that I thoroughly enjoy
+            and see myself stepping into on a daily basis.
             <br /> I have always been intrigued by simple solutions to complex
             challenges and answers to the unsolved problems.
           </Typography>
@@ -40,12 +40,12 @@ class About extends React.Component {
             variant="title"
             align="right"
           >
-            Today, we have created smart software systems that make many
+            Today, we have created many smart software systems that make
             important decisions on our behalf. <br />
-            Such artificially intelligent applications are everywhere - desktop,
-            cloud and the edge. <br />
-            Deployment, continous monitoring and maintenance of such AI systems
-            is still a huge challenge.
+            Such artificially intelligent applications are literally everywhere
+            - desktop, cloud, edge devices and wearbles. <br />
+            But still, continous deployment, monitoring and maintenance of such
+            AI systems remains a huge challenge.
             <br />
           </Typography>
           <Typography
@@ -53,10 +53,10 @@ class About extends React.Component {
             variant="title"
             align="justify"
           >
-            It is of great interest for me to contribute in this domain to help
-            build accurate, scalable and observalble AI systems.
-            <br /> I build software applications and data analysis solutions to
-            manage and monitor AI deployments at scale. <br />
+            It is of great interest for me to contribute towards building
+            accurate, scalable and observalble AI systems.
+            <br /> I build software applications and data observability
+            solutions to manage and monitor AI deployments at scale. <br />
             My key areas of interest are,
             <br />
             <br />
@@ -70,13 +70,13 @@ class About extends React.Component {
             variant="title"
             align="right"
           >
-            Also, I am an open source advocate <br />
-            I stongly feel that constructive collaboration by contributors
+            I am an advocate for open source software. I feel that my
+            perspective is validated by the growing adoption of OSS projects.
+            <br />
+            I stongly belive that constructive collaboration by contributors
             across the globe is the only sustainable way forward.
-            <br /> My perspective is validated by the growing number of OSS
-            projects and their adoption rates.
             <br />I look forward to more discussions, experimentations and
-            collaborations that could shape our future.
+            collaborations that could shape our common future.
           </Typography>
         </div>
         <VerticalTimeline>
@@ -93,12 +93,13 @@ class About extends React.Component {
             </h3>
             <h4 className="vertical-timeline-element-subtitle">2019-Present</h4>
             <p>
-              I am currently working as a part of the tech team at Seldon in
-              London. I find myself continuing on my journey building products
-              to streamline machine learning deployment and monitoring processes
-              in the complex enterprise ecosystems. It is great to be part of an
-              open core organisation working with some enterprise giants at the
-              same time.
+              I am currently working in London as a technical team member at
+              Seldon. I find myself continuing on my journey building software
+              products to streamline machine learning deployment and monitoring
+              processes in complex enterprise ecosystems. It is great to be part
+              of an open core organisation working on the very cutting edge in
+              terms of MLOps research & pushing this domain forward with close
+              collaboration with some enterprise giants.
               <a href="https://www.seldon.io/tech/products/deploy/">
                 {" Seldon Deploy"}
               </a>
