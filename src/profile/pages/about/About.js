@@ -28,23 +28,24 @@ class About extends React.Component {
             align="justify"
           >
             I am Sachin Varghese. I introduce myself as a software engineer and
-            a researcher.
+            a technology researcher.
             <br />
             These are the main roles that I thoroughly enjoy and see myself
             stepping into on a daily basis.
-            <br /> Always managed to find myself in a quest to solve difficult
-            problems and answers to the unknown.
+            <br /> I have always been intrigued by simple solutions to complex
+            challenges and answers to the unsolved problems.
           </Typography>
           <Typography
             className={styles["textContent"]}
             variant="title"
             align="right"
           >
-            Today, we have software systems that make many important intelligent
-            decisions on our behalf. <br />
+            Today, we have created smart software systems that make many
+            important decisions on our behalf. <br />
             Such artificially intelligent applications are everywhere - desktop,
-            cloud and the edge. <br /> However, the deployment, improvement and
-            operationalization of such AI systems is still a huge challenge.
+            cloud and the edge. <br />
+            Deployment, continous monitoring and maintenance of such AI systems
+            is still a huge challenge.
             <br />
           </Typography>
           <Typography
@@ -53,9 +54,9 @@ class About extends React.Component {
             align="justify"
           >
             It is of great interest for me to contribute in this domain to help
-            build accurate and ethical AI systems.
-            <br /> I build applications and data processing solutions to manage
-            and monitor AI deployments at scale. <br />
+            build accurate, scalable and observalble AI systems.
+            <br /> I build software applications and data analysis solutions to
+            manage and monitor AI deployments at scale. <br />
             My key areas of interest are,
             <br />
             <br />
@@ -69,12 +70,11 @@ class About extends React.Component {
             variant="title"
             align="right"
           >
-            Also, I am an open source advocate for any technological
-            advancement. <br />
+            Also, I am an open source advocate <br />
             I stongly feel that constructive collaboration by contributors
-            across the globe is the sustainable way forward.
+            across the globe is the only sustainable way forward.
             <br /> My perspective is validated by the growing number of OSS
-            projects and the adoption rates of such projects.
+            projects and their adoption rates.
             <br />I look forward to more discussions, experimentations and
             collaborations that could shape our future.
           </Typography>
