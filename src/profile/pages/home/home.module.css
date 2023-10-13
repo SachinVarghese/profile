@@ -2,6 +2,12 @@
   composes: flex1 from "./../../../app.module.css";
   composes: dFlex from "./../../../app.module.css";
   flex-direction: column;
+  background-image: url("./../../../assets/cover_latest.jpeg");
+  background-size: cover;
+  background-color: lightgray;
+  background-blend-mode: multiply;
+  background-position-y: -500px;
+  background-position-x: -300px;
 }
 
 .textHeader {
@@ -10,13 +16,6 @@
 
 .text {
   padding: 5px;
-}
-
-.mainTextCover {
-  position: relative;
-  top: 25%;
-  left: 10%;
-  width: 30%;
 }
 
 .mainText {
@@ -34,19 +33,28 @@
 }
 
 .imgBackground {
-  background-image: url("./../../../assets/cover_new.jpeg");
-  background-size: cover;
-  background-color: lightgrey;
-  background-blend-mode: multiply;
-  flex: 1;
-  background-position-y: center;
-  background-repeat: no-repeat;
-  margin-bottom: 20px;
-  min-height: 300px;
+  max-height: 400px;
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 5px;
+  max-width: 70%;
+  text-shadow: 3px 3px black;
+  margin: 10px;
 }
 
 @media only screen and (max-device-width: 640px) {
   .sceneBackground {
     flex-direction: column;
+  }
+  .mainBackground {
+    background-position-y: -300px;
+    background-position-x: -300px;
+  }
+  .imgBackground {
+    margin-top: 30%;
+    max-width: 100%;
   }
 }

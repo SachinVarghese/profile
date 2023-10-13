@@ -91,7 +91,7 @@ class About extends React.Component {
             <h3 className="vertical-timeline-element-title">
               Software Engineer, Seldon
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">2019-Present</h4>
+            <h4 className="vertical-timeline-element-subtitle">2019-2023</h4>
             <p>
               I am currently working in London as a technical team member at
               Seldon. I find myself continuing on my journey building software

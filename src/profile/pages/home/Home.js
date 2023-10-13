@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./home.module.css";
 import Typography from "@material-ui/core/Typography";
 import SkillChart from "./SkillChart";
-import Paper from "@material-ui/core/Paper";
 import data from "./data.js";
 
 class Skill extends React.Component {
@@ -17,27 +16,16 @@ class Skill extends React.Component {
               flexDirection: "column",
               flex: 5,
               padding: "0% 5%",
-              marginTop: 30,
+              marginTop: 300,
             }}
           >
-            <Paper className={styles.imgBackground}>
-              <div className={styles.mainTextCover}>
-                <Typography
-                  variant="display1"
-                  className={styles.mainText}
-                  align="center"
-                >
-                  Hello! I'm Sachin <br /> Software Engineer & Researcher
-                </Typography>
-              </div>
-            </Paper>
-
-            <div
-              style={{
-                flex: 1,
-                display: "flex",
-                justifyContent: "space-between",
-              }}
+            <iframe
+              height="300"
+              title="Linkdin Badge"
+              src="/profile/linkdin-badge.html"
+              style={{ border: "none", minWidth: 350 }}
+            ></iframe>
+            <div className={styles.imgBackground}
             >
               <div style={{ padding: 5 }}>
                 <Typography
@@ -48,16 +36,19 @@ class Skill extends React.Component {
                   Areas of Interest
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
-                  Applied AI and MLOps - Seldon Core, MLServer, TensorFlow
+                  Applied AI and MLOps - Triton, MLServer, Seldon Core, Kubeflow
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
-                  OLAP Data stores, Stream processing & Real-time Analytics
+                  Data storage & search -  Vector stores, embeddings, similarity search
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
-                  Data Observability tools - Outlier & Drift Detection
+                  Data pipelines, stream processing & real-time analytics and visualization
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
-                  Data Visualization on the Web - D3, ReactJS
+                  ML Observability tools - Outlier & data distribution drift detection
+                </Typography>
+                <Typography variant="headline" className={styles.text}>
+                  LLM applications, prompt engineering and retrieval augmented generation
                 </Typography>
                 <Typography variant="headline" className={styles.text}>
                   Cloud Technologies - Kubernetes, Docker, Gitops
@@ -73,12 +64,6 @@ class Skill extends React.Component {
                   Golang - Python - Javascript
                 </Typography>
               </div>
-              <iframe
-                height="300"
-                title="Linkdin Badge"
-                src="/profile/linkdin-badge.html"
-                style={{ border: "none", minWidth: 350 }}
-              ></iframe>
             </div>
           </div>
           <svg

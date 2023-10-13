@@ -8,6 +8,13 @@ export default [
   },
   {
     cat: "language",
+    name: "Python",
+    value: 50,
+    icon: "./python.png",
+    url: "https://www.python.org/",
+  },
+  {
+    cat: "language",
     name: "Golang",
     value: 50,
     icon: "./golang.png",
@@ -78,13 +85,6 @@ export default [
   },
   {
     cat: "language",
-    name: "Python",
-    value: 20,
-    icon: "./python.png",
-    url: "https://www.python.org/",
-  },
-  {
-    cat: "language",
     name: "Elixir",
     value: 5,
     icon: "./elixir.png",
@@ -121,14 +121,14 @@ export default [
   {
     cat: "framework",
     name: "Tensorflow",
-    value: 20,
+    value: 15,
     icon: "./tf.png",
     url: "https://js.tensorflow.org/",
   },
   {
     cat: "technology",
     name: "Postgres",
-    value: 30,
+    value: 25,
     icon: "./postgres.png",
     url: "https://www.postgresql.org/",
   },
