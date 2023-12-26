@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import SkillChart from "./SkillChart";
 import data from "./data.js";
 
-class Skill extends React.Component {
+class Home extends React.Component {
   render() {
     return (
       <div className={styles.mainBackground}>
@@ -16,7 +16,6 @@ class Skill extends React.Component {
               flexDirection: "column",
               flex: 5,
               padding: "0% 5%",
-              marginTop: 300,
             }}
           >
             <iframe
@@ -65,14 +64,14 @@ class Skill extends React.Component {
                 </Typography>
               </div>
             </div>
-          </div>
+          </div >
           <svg
             id="skill-scene"
             className={styles.dualBackground}
             style={{ flex: 4, marginTop: 30 }}
           />
-        </div>
-      </div>
+        </div >
+      </div >
     );
   }
 
@@ -81,4 +80,4 @@ class Skill extends React.Component {
   }
 }
 
-export default Skill;
+export default Home;

@@ -20,7 +20,7 @@ class About extends React.Component {
             variant="display1"
             align="center"
           >
-            About me and the story so far..
+            About me and the journey so far..
           </Typography>
           <Typography
             className={styles["textContent"]}
@@ -32,8 +32,6 @@ class About extends React.Component {
             <br />
             These two are the main professional roles that I thoroughly enjoy
             and see myself stepping into on a daily basis.
-            <br /> I have always been intrigued by simple solutions to complex
-            challenges and answers to the unsolved problems.
           </Typography>
           <Typography
             className={styles["textContent"]}
@@ -41,9 +39,9 @@ class About extends React.Component {
             align="right"
           >
             Today, we have created many smart software systems that make
-            important decisions on our behalf. <br />
+            important decisions in our lives. <br />
             Such artificially intelligent applications are literally everywhere
-            - desktop, cloud, edge devices and wearbles. <br />
+            - desktop, cloud, and edge devices. <br />
             But still, continous deployment, monitoring and maintenance of such
             AI systems remains a huge challenge.
             <br />
@@ -61,8 +59,7 @@ class About extends React.Component {
             <br />
             <br />
             &#9733; Applied AI & MLOps <br />
-            &#9733; Data stores for real-time analytics <br />
-            &#9733; ML Data observability
+            &#9733; Data observability & analytics
           </Typography>
 
           <Typography
@@ -142,15 +139,14 @@ class About extends React.Component {
             </h3>
             <h4 className="vertical-timeline-element-subtitle">2016-2017</h4>
             <p>
-              I was promoted to the role of a Developer in the R&D team to
+              I was promoted to the role of a Software Developer in the R&D team to
               create a new range of enterprise MLOps products that can be
               leveraged by the data scientists and business analysts. This
-              involved creating data pipelines, monitoring dashboards, AI
+              involved toolkits for data pipelines, monitoring dashboards, AI
               deployments and user interfaces that assist with such machine
               learning workflows. It was an extremely energetic workplace where
-              I took resposibility of new projects, improved my skills,
-              progressed as a engineer while starting to make valuble open
-              source contributions.
+              I took resposibility of new projects, improved my skills as a 
+              engineer while starting to make valuble open source contributions.
               <a href="https://www.mu-sigma.com/our-platform/big-data-analytics-software">
                 {" Data Analytics Solutions"}
               </a>

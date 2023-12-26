@@ -1,7 +1,3 @@
-.dFlex {
-  display: flex;
-}
-
 .fullWidth {
   width: 100%;
 }
@@ -11,47 +7,7 @@
 }
 
 .fullSize {
-  composes: fullHeight;
-  composes: fullWidth;
+  height: 100%;
+  width: 100%;
   display: flex;
 }
-
-.flex1 {
-  flex: 1;
-}
-
-/* .dflex-v-center {
-  display: flex;
-  align-items: center;
-}
-
-.d-flex-h-center {
-  display: flex;
-  justify-content: center;
-}
-
-.d-flex-column {
-  composes: d-flex;
-  flex-direction: column;
-} */
-
-/* .d-flex-centralized {
-  composes: d-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.d-flex-column-centralized {
-  composes: d-flex-centralized;
-  flex-direction: column;
-} */
-
-/* .full-size-d-flex-centralized {
-  composes: d-flex-centralized;
-  composes: full-size;
-}
-
-.full-size-d-flex-column-centralized {
-  composes: d-flex-column-centralized;
-  composes: full-size;
-} */
